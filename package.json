@@ -1,6 +1,6 @@
 {
   "name": "fileuploadutilitybymicky",
-  "version": "1.0.0", 
+  "version": "1.0.1",
   "description": "Create a utility for handling file uploads in Node.js applications, providing features like file type validation, file size limits, and integration with cloud storage services like AWS S3 or Google Cloud Storage",
   "main": "./src/index.js",
   "scripts": {
@@ -8,13 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "" // репозиторий (заполним чуть позже)
+    "url": "https://github.com/MikhailoPro/fileuploadutilitybymicky.git"
   },
-  "keywords": [ // ключевые слова (необязательно)
-    "", 
+  "keywords": [
+    "",
     "",
     ""
   ],
-  "author": "", // автор (необязательно)
-  "license": "MIT"
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "datastructuresbymick": "^1.0.0"
+  }
 }
